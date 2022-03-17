@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Country list</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form action="javascript:void(0);">
+        <input type = "text" id="addCountry" placeholder="Enter Country Name"/>
+      <select name="Continent" id="continent">
+          <option value=""></option>
+      <option value="North America">North America</option>
+      <option value="South America">South America</option>
+      <option value="Africa">Africa</option>
+      <option value="Europe">Europe</option>
+         <option value="Asia">Asia</option>
+         <option value="Anartica">Antartica</option>
+         <option value="Australia">Australia</option>
+    </select>
+    
+        <button class="custom-btn btn-9" onclick ="createCountry()">Add</button>
+        <div id="countries"></div>
+        <div id="buttons"></div>
+    </form>
+    
+    
+</body>
+</html>
